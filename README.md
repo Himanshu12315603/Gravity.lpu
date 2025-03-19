@@ -1,4 +1,4 @@
-# Club Website Project
+# Gravity Website Project
 
 ## Overview
 This project is a dynamic and user-friendly **Club Website** designed for community engagement. It features:
@@ -10,8 +10,10 @@ This project is a dynamic and user-friendly **Club Website** designed for commun
 
 ## Folder Structure
 
-/gravity
- ├── /newton
+## Folder Structure
+```markdown
+/club-website
+ ├── /public
  │   ├── index.html         # Homepage
  │   ├── home.html          # Home page for logged-in users
  │   ├── gallery.html       # Gallery page
@@ -27,18 +29,18 @@ This project is a dynamic and user-friendly **Club Website** designed for commun
  ├── /assets
  │   ├── /css
  │   │   └── styles.css     # Custom styling (Tailwind CSS can be added here)
- │   ├── /images            # All project-related images
+ │   ├── /images            # All project-related image
  │   └── /js
  │       └── main.js        # JavaScript for navbar switch logic
  │
  ├── /docs
  │   ├── README.md          # Project overview and setup guide
  │   ├── CONTRIBUTING.md    # Contribution guidelines
- │   └── CODE_OF_CONDUCT.md # Community standards
  │
  ├── .gitignore             # Files to exclude from Git tracking
  ├── package.json           # For managing dependencies (like Tailwind CSS)
  ├── tailwind.config.js     # Tailwind CSS configuration
- ├── LICENSE                # Project license details
  └── index.html             # Main entry point for your website
+```
+
 
