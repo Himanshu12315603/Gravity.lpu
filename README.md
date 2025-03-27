@@ -13,7 +13,7 @@ This project is a dynamic and user-friendly **Club Website** designed for commun
 ## Folder Structure
 ```markdown
 /club-website
- ├── /public
+ ├── /space
  │   ├── index.html         # Homepage
  │   ├── home.html          # Home page for logged-in users
  │   ├── gallery.html       # Gallery page
