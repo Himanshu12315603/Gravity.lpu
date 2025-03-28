@@ -23,8 +23,7 @@ This project is a dynamic and user-friendly **Club Website** designed for commun
  │   ├── dashboard.html     # Dashboard page for logged-in users
  │
  ├── /components
- │   ├── navbar.html        # Standard public navbar
- │   ├── dashboard-navbar.html  # Navbar for logged-in users
+ │   ├──  
  │
  ├── /assets
  │   ├── /css
