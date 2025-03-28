@@ -1,20 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+
+<head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Gravity</title>
         <link href="/src/output.css" rel="stylesheet">
-        <section class="bg-gray-100 min-h-screen">
-            <nav class="bg-blue-600 text-white">
-                <ul class="flex justify-end items-center w-[100%]">
-                    <li class="h-12"><a href="#" class="flex items-center text-black p-9 py-2 no-underline hover:bg-[#f0f0f0] hover:underline">Home</a></li>
-                    <li class="h-12"><a href="#" class="flex items-center text-black p-9 py-2 no-underline hover:bg-[#f0f0f0] hover:underline">Gallery</a></li>
-                    <li class="h-12"><a href="#" class="flex items-center text-black p-9 py-2 no-underline hover:bg-[#f0f0f0] hover:underline">Event</a></li>
-                    <li class="h-12"><a href="#" class="flex items-center text-black p-9 py-2 no-underline hover:bg-[#f0f0f0] hover:underline">Login</a></li>
-                    <li class="h-12"><a href="#" class="flex items-center text-black p-9 py-2 no-underline hover:bg-[#f0f0f0] hover:underline">Signup</a></li>
-                </ul>
-            </nav>
-        </section>
-    </body>
+</head>
+<body class="bg-black">
+
+        <header class=" p-6 h-24 mt-12 ml-96 bg-blue-600 rounded-full w-[80rem] ">
+                <nav class=" text-white flex justify-between items-center h-16">
+                        <div class="logo w-20 cursor-pointer"><img src="/public/images/whiteLogo.svg"
+                                        alt="Gravity LPU">
+                        </div>
+                        <ul class="flex justify-end  max-w-full pt-5">
+                                <li class="h-12"><a href="#"
+                                                class=" text-black p-9 py-2 no-underline hover:bg-[#f0f0f0]  hover:rounded-xl">Home</a>
+                                </li>
+                                <li class="h-12"><a href="#"
+                                                class=" text-black p-9 py-2 no-underline hover:bg-[#f0f0f0]  hover:rounded-xl">Gallery</a>
+                                </li>
+                                <li class="h-12"><a href="#"
+                                                class=" text-black p-9 py-2 no-underline hover:bg-[#f0f0f0]  hover:rounded-xl">Event</a>
+                                </li>
+                                <li class="h-12"><a href="#"
+                                                class=" text-black p-9 py-2 no-underline hover:bg-[#f0f0f0]  hover:rounded-xl">Login</a>
+                                </li>
+                                <li class="h-12"><a href="#"
+                                                class=" text-black p-9 py-2 no-underline hover:bg-[#f0f0f0]  hover:rounded-xl">Signup</a>
+                                </li>
+                        </ul>
+                </nav>
+        </header>
+        <div class="flash-messages"></div>
+</body>
+
 </html>
