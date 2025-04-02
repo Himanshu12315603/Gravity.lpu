@@ -7,37 +7,49 @@
         <title>Gravity</title>
         <link href="/src/output.css" rel="stylesheet">
 </head>
-<body class="bg-black">
+<body class="">
 
-        <header class=" p-6 h-24 mt-12 ml-96 bg-blue-600 rounded-full w-[80rem] ">
-                <nav class=" text-white flex justify-between items-center h-16">
-                        <div class="logo w-20 cursor-pointer"><img src="/public/images/whiteLogo.svg"
-                                        alt="Gravity LPU">
-                        </div>
-                        <ul class="flex justify-end  max-w-full pt-5">
-                                <li class="h-12"><a href="#"
-                                                class=" text-black p-9 py-2 no-underline hover:bg-[#f0f0f0]  hover:rounded-xl">Home</a>
+        <header class=" bg-blue-600 ">
+                <nav class="container text-white flex justify-between p-4 mx-auto items-center">
+                        <div class="logo w-20 cursor-pointer"><img src="/public/images/whiteLogo.svg" alt="Gravity LPU"></div>
+
+                        <!-- mobile menu button -->
+                         <button id ="menu-toggle" class="md:hidden text-white text-2xl">☰</button>
+                         
+                        <ul id="menu" class="hidden md:flex justify-end text-black space-x-12">
+                                <li><a href="#" class=" no-underline hover:bg-[#f0f0f0]  hover:rounded">Home</a>
                                 </li>
-                                <li class="h-12"><a href="#"
-                                                class=" text-black p-9 py-2 no-underline hover:bg-[#f0f0f0]  hover:rounded-xl">Gallery</a>
+                                <li><a href="#" class="  no-underline hover:bg-[#f0f0f0]  hover:rounded">Gallery</a>
                                 </li>
-                                <li class="h-12"><a href="#"
-                                                class=" text-black p-9 py-2 no-underline hover:bg-[#f0f0f0]  hover:rounded-xl">Event</a>
+                                <li><a href="#" class=" no-underline hover:bg-[#f0f0f0]  hover:rounded">Event</a>
                                 </li>
-                                <li class="h-12"><a href="#"
-                                                class=" text-black p-9 py-2 no-underline hover:bg-[#f0f0f0]  hover:rounded-xl">Login</a>
+                                <li><a href="#" class="  no-underline hover:bg-[#f0f0f0]  hover:rounded">Register</a>
                                 </li>
-                                <li class="h-12"><a href="#"
-                                                class=" text-black p-9 py-2 no-underline hover:bg-[#f0f0f0]  hover:rounded-xl">Signup</a>
+                                <li><a href="#" class=" no-underline hover:bg-[#f0f0f0]  hover:rounded">Login</a>
                                 </li>
                         </ul>
+
+                        <div id="mobile-menu" class="hidden md:hidden">
+                                <ul class="flex flex-col text-center">
+                                        <li><a href="#" class="block py-2 hover:bg-gray-600">Home</a></li>
+                                        <li><a href="#" class="block py-2 hover:bg-gray-600">Gallery</a></li>
+                                        <li><a href="#" class="block py-2 hover:bg-gray-600">Register</a></li>
+                                        <li><a href="#" class="block py-2 hover:bg-gray-600">Login</a></li>
+                                </ul>
+                        </div>
                 </nav>
-        </header>
+        <!-- </header> -->
         <div class="flash-messages"></div>
 
         <main>
                 
         </main>
+        <script>
+                // Toggle mobile menu
+                document.getElementById('menu-toggle').addEventListener('click', function () {
+                        document.getElementById('mobile-menu').classList.toggle('hidden');
+                });
+        </script>
 </body>
 
 </html>
